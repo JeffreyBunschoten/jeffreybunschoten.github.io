@@ -136,7 +136,7 @@ ul {
     font-size: large;
     font-weight: bold;  
     padding-top: 0px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .content {
@@ -144,7 +144,6 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 
 /* CONTENT END */
 
