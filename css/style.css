@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: rgb(109, 106, 106);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .header, .sidebar, .footer {
-    background-color: rgb(58, 57, 57);
+    background-color: rgb(44, 43, 43);
     color: white;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .card {
-    background-color: rgb(196, 192, 192);
+    background-color: rgb(158, 155, 155);
     color: black;
     padding: 1rem;
     /* height: 8rem; */
@@ -71,7 +71,7 @@ body {
 /* SIDEBAR START */
 
 img {
-    border-radius: 10%;
+    border-radius: 60%;
 }
 
 .divider {
@@ -93,9 +93,9 @@ img {
 
 .name {
     position: absolute;
-    font-size: 24px;
-    bottom: 0px;
-    left: 25%;
+    font-size: 28px;
+    bottom: 15px;
+    left: 30%;
 }
 
 ul {
