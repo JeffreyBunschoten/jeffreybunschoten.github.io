@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(109, 106, 106);
+    background-color: rgb(240, 240, 240);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-    background-color: rgb(158, 155, 155);
+    background-color: rgb(201, 201, 201);
     color: black;
     padding: 1rem;
 }
