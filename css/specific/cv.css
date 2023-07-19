@@ -1,8 +1,4 @@
-body {
-    background-color: rgb(240, 240, 240);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-}
+
 /* BASIC RESPONSIVE DESIGN START */
 
 .cards {
@@ -15,22 +11,18 @@ body {
 .sidebar {
     background-color: rgb(44, 43, 43);
     color: white;
-    /* max-width: 100%; */
-}
-
-.sidebar {
     display: flex;
     flex-direction: column;
     padding: 10px;
     gap: 10px;
-    grid-row: 2 / 10;
+    grid-row: 2 / 5;
     max-width: 480px;
 }
 
 .card {
     background-color: rgb(201, 201, 201);
     color: black;
-    padding: 1rem;
+    padding: 10px;
 }
 
 .footer {
@@ -39,7 +31,7 @@ body {
     justify-content: center;
     padding: 10px;
     gap: 10px;
-    grid-row: 14 / 15;
+    grid-row: 5 / 6;
 }
 
 @media (min-width: 720px) {
