@@ -15,7 +15,7 @@
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
   }
   
@@ -29,7 +29,7 @@
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 20px 20px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -51,7 +51,7 @@
   .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -64,3 +64,16 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+/* Footer */
+
+.footer {
+  background-color: rgb(44, 43, 43);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+  grid-row: 14 / 15;
+}
