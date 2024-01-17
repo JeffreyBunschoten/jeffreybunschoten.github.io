@@ -1,0 +1,13 @@
+$mybackground_outside: hsl(47, 88%, 63%);
+$mybackground_inside: white;
+$myFont_family: 'Figtree', sans-serif;
+$myFont_size: 16px;
+$contenttext_transparancy: hsl(0, 0%, 50%);
+
+@import 'normalize.scss';
+@import 'small.scss';
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+@media only screen and (min-width: 375px) {
+    @import 'big.scss';
+} /* endof media query*/

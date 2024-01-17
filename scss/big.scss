@@ -1,0 +1,21 @@
+/* 12 COLUMN GRID SYSTEM */
+@for $i from 1 through 12 {
+    $w:calc($i / 12) * 100%;
+    .large-#{$i} {flex-basis: $w;}	
+} // end loop
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+.card {
+    display: flex;
+}

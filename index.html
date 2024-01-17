@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/specific/index.css">
-    <link rel="preload" as="image" href="./img/black-wide-technology-background.jpg">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
-<body>
-<!-- HEADER START -->
-<div class="header">
-  <div class="menu">
-    <div class="navbar">
-      <a href="./index.html">Home</a>
-      <div class="dropdown">
-        <button class="dropbtn">Projects 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="./pages/cv.html">Curriculum Vitae</a>
-          <a href="./pages/birthday.html">Birthday Invite</a>
-          <a href="./pages/motivation.html">Motivational Meme</a>
-        </div>                      
-      </div>
-      <a href="./pages/contact.html">Contact</a>
-      <a href="./pages/about.html">About</a>
-    </div> 
+<body class="row">
+  <div class="container">
+    <div class="card small-12 large-6">
+
+        <img class="illustration" src="assets/images/illustration-article.svg" alt="card logo">
+
+        <div class="tag">
+          <p><strong>Learning</strong></p>
+        </div>
+        
+        <div class="published">
+          Published 21 Dec 2023
+        </div>
+
+        <div class="content">
+          <h1>HTML & CSS foundations</h1>
+          <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        </div>
+
+        <div class="author">
+          <img class="authorpic" src="./assets/images/image-avatar.webp" alt="Picture of Greg Hooper">
+          <h2 class="authorname">Greg Hooper</h2>
+        </div>
+    </div>
   </div>
-</div>
-<!-- HEADER END -->
-
-<!-- Image -->
-
-<img class="image" src="./img/think_twice_code_once.jpg" alt="Think twice, code once">
-
-  
-<!-- FOOTER START -->
-<div class="footer">  
-  <div class="footitem">Designed & coded by: Jeffrey Bunschoten</div>
-</div>
-  <!-- FOOTER END -->
-  
+    
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Jeff Bunschoten</a>.
+    </div>
+  </footer>
+</body>
+</html>
